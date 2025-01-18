@@ -4,7 +4,7 @@
   --theme: #2970ff;
   --black: #000;
   --white: #fff;
-  --shadow: 0px 0px 30px 8px  rgba(227, 227, 227, 0.75);
+  --shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
 }
 body {
   margin: 0;
@@ -15,4 +15,16 @@ body {
 
 input {
   font-family: "Montserrat", sans-serif;
+}
+
+.custom-input {
+  border: 0px;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  border-radius: 0;
+}
+
+.custom-input {
+  margin-top: -1rem !important;
 }
