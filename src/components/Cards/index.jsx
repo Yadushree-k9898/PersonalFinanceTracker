@@ -4,9 +4,9 @@ import { Card, Row } from "antd";
 import Button from "../Button";
 
 const Cards = ({
-  currentBalance,
+  totalBalance,
   income,
-  expenses,
+  expense,
   showExpensesModal,
   showIncomeModal,
   cardStyle,
@@ -17,7 +17,7 @@ const Cards = ({
       <Row className="my-row">
         <Card bordered={true} className="my-card">
           <h2>Current Balance</h2>
-          <p>₹{currentBalance}</p>
+          <p>₹{totalBalance}</p>
           <Button  onClick={reset} text="Reset Balance" blue={true}/>
            
         </Card>
@@ -31,7 +31,7 @@ const Cards = ({
 
         <Card bordered={true} className="my-card">
           <h2>Total Expenses</h2>
-          <p>₹{expenses}</p>
+          <p>₹{expense}</p>
           <Button  onClick={showExpensesModal} text="Add Expenses" blue={true}/>
            
         </Card>

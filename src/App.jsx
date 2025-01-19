@@ -4,7 +4,8 @@ import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import "./App.css";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
+
 
 const App = () => {
   return (
